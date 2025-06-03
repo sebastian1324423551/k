@@ -37,7 +37,7 @@ loginForm.addEventListener('submit', (e) => {
         localStorage.setItem('isLoggedIn', 'true');
         
         // Redirigir a la página principal
-        window.location.href = '/main.html';
+        window.location.href = 'main.html';
     } else {
         alert('Por favor ingresa email y contraseña');
     }
