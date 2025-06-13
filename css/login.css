@@ -12,9 +12,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* Elimina la línea del background-image y añade esto: */
-    position: relative;
-    overflow: hidden;
+    background: url('img/Download\ free\ image\ of\ Forest\ tree\ land\ vegetation\ by\ เท่\ ยืนกุ่ย\ about\ background\,\ jungle\,\ cartoon\,\ sunset\,\ and\ spaces\ 12163948.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 header {
@@ -254,30 +254,7 @@ header {
     text-decoration: none;
     font-weight: 600;
 }
+
 .login-register p a:hover {
     text-decoration: underline;
 }
-video#video-fondo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-header,
-.wrapper {
-    position: relative;
-    z-index: 1; /* Asegura que estén sobre el video */
-}
-
-/* Opcional: Oscurecer video para mejor contraste */
-#video-fondo::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3); /* Ajusta la opacidad */
